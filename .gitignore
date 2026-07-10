@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# SIMION: geometría fuente y arreglos de campo refinados (pesados, GB-scale;
+# se regeneran localmente con `simion --nogui refine "electrode_.PA#"`).
+# Ver README.md, sección "Cómo reproducir".
+simulation/electrode_.PA#
+simulation/electrode_.PA[0-9]*
+simulation/simion.exe
+simulation/out.txt
+
+# LaTeX build artifacts
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.synctex.gz
+report/*.fls
+report/*.fdb_latexmk
+report/*.bbl
+report/*.blg
+
+# Bundle de entrega antiguo (redundante con el repo reorganizado)
+gemelo_digital_beamline_entrega.zip
+
+# Configuración local de Claude Code (personal, no compartida)
+.claude/settings.local.json
+
+# SO
+.DS_Store
+Thumbs.db

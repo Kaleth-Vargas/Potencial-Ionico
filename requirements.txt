@@ -1,0 +1,6 @@
+numpy>=2.2
+pandas>=2.3
+scipy>=1.16
+scikit-learn>=1.8
+matplotlib>=3.10
+optuna>=4.9
